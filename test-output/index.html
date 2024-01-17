@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Functional_Testing" class="navigator-link">
+              <span class="suite-name border-passed">Functional Testing</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Functional_Testing" class="navigator-link ">
+                    <span>C:\Users\nikil\eclipse-workspace\Hackthon.zip_expanded\GRP2hackathon\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Functional_Testing" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Functional_Testing" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Functional_Testing" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Functional_Testing" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Functional_Testing" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Functional_Testing" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Functional_Testing" class="hide-methods passed suite-Functional_Testing"> (hide)</a> <!-- hide-methods passed suite-Functional_Testing -->
+                      <a href="#" panel-name="suite-Functional_Testing" class="show-methods passed suite-Functional_Testing"> (show)</a> <!-- show-methods passed suite-Functional_Testing -->
+                    </span>
+                    <div class="method-list-content passed suite-Functional_Testing">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.CabBooking" class="method navigator-link" hash-for-method="clickSearchButton">clickSearchButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.CorporateGifting" class="method navigator-link" hash-for-method="fillForm">fillForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.CorporateGifting" class="method navigator-link" hash-for-method="formSubmit">formSubmit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.CorporateGifting" class="method navigator-link" hash-for-method="getErrorMessage">getErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.CabBooking" class="method navigator-link" hash-for-method="getLowestPrice">getLowestPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.HotelBooking" class="method navigator-link" hash-for-method="getNoAdults">getNoAdults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.CorporateGifting" class="method navigator-link" hash-for-method="openSite">openSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.CabBooking" class="method navigator-link" hash-for-method="readExcelFile">readExcelFile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.CabBooking" class="method navigator-link" hash-for-method="selectCabType">selectCabType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.CabBooking" class="method navigator-link" hash-for-method="selectCabs">selectCabs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.CorporateGifting" class="method navigator-link" hash-for-method="selectCorporateCards">selectCorporateCards</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.CabBooking" class="method navigator-link" hash-for-method="selectDepartureDate">selectDepartureDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.CabBooking" class="method navigator-link" hash-for-method="selectFromCity">selectFromCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.HotelBooking" class="method navigator-link" hash-for-method="selectHotels">selectHotels</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.CabBooking" class="method navigator-link" hash-for-method="selectSortByOption">selectSortByOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.CabBooking" class="method navigator-link" hash-for-method="selectTime">selectTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.CabBooking" class="method navigator-link" hash-for-method="selectToCity">selectToCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.CabBooking" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.HotelBooking" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="com.testscenarios.CorporateGifting" class="method navigator-link" hash-for-method="verifyTitleOfGiftpage">verifyTitleOfGiftpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Functional_Testing -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Functional_Testing" class="panel Functional_Testing">
+          <div class="suite-Functional_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testscenarios.CorporateGifting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillForm">
+                  </a> <!-- fillForm -->
+                  <span class="method-name">fillForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formSubmit">
+                  </a> <!-- formSubmit -->
+                  <span class="method-name">formSubmit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getErrorMessage">
+                  </a> <!-- getErrorMessage -->
+                  <span class="method-name">getErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openSite">
+                  </a> <!-- openSite -->
+                  <span class="method-name">openSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCorporateCards">
+                  </a> <!-- selectCorporateCards -->
+                  <span class="method-name">selectCorporateCards</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleOfGiftpage">
+                  </a> <!-- verifyTitleOfGiftpage -->
+                  <span class="method-name">verifyTitleOfGiftpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional_Testing-class-passed -->
+          <div class="suite-Functional_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testscenarios.HotelBooking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getNoAdults">
+                  </a> <!-- getNoAdults -->
+                  <span class="method-name">getNoAdults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectHotels">
+                  </a> <!-- selectHotels -->
+                  <span class="method-name">selectHotels</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional_Testing-class-passed -->
+          <div class="suite-Functional_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testscenarios.CabBooking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSearchButton">
+                  </a> <!-- clickSearchButton -->
+                  <span class="method-name">clickSearchButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLowestPrice">
+                  </a> <!-- getLowestPrice -->
+                  <span class="method-name">getLowestPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readExcelFile">
+                  </a> <!-- readExcelFile -->
+                  <span class="method-name">readExcelFile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCabType">
+                  </a> <!-- selectCabType -->
+                  <span class="method-name">selectCabType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCabs">
+                  </a> <!-- selectCabs -->
+                  <span class="method-name">selectCabs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectDepartureDate">
+                  </a> <!-- selectDepartureDate -->
+                  <span class="method-name">selectDepartureDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectFromCity">
+                  </a> <!-- selectFromCity -->
+                  <span class="method-name">selectFromCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectSortByOption">
+                  </a> <!-- selectSortByOption -->
+                  <span class="method-name">selectSortByOption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectTime">
+                  </a> <!-- selectTime -->
+                  <span class="method-name">selectTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectToCity">
+                  </a> <!-- selectToCity -->
+                  <span class="method-name">selectToCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional_Testing-class-passed -->
+        </div> <!-- panel Functional_Testing -->
+        <div panel-name="test-xml-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nikil\eclipse-workspace\Hackthon.zip_expanded\GRP2hackathon\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Functional Testing&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Scenario1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testscenarios.CabBooking&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Scenario1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Scenario2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testscenarios.CorporateGifting&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Scenario2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Scenario3&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testscenarios.HotelBooking&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Scenario3 --&gt;
+&lt;/suite&gt; &lt;!-- Functional Testing --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Functional Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Scenario1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Scenario2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Scenario3 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Functional Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">formSubmit</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getNoAdults</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCabs</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCorporateCards</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectDepartureDate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectFromCity</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectHotels</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectTime</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectToCity</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickSearchButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">fillForm</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">formSubmit</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getErrorMessage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getLowestPrice</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getNoAdults</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCabType</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectDepartureDate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectFromCity</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectSortByOption</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectTime</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectToCity</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Functional Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Functional_Testing');
+function tableData_Functional_Testing() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'openSite')
+data.setCell(0, 2, 'com.testscenarios.CorporateGifting')
+data.setCell(0, 3, 1838);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickSearchButton')
+data.setCell(1, 2, 'com.testscenarios.CabBooking')
+data.setCell(1, 3, 1799);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getErrorMessage')
+data.setCell(2, 2, 'com.testscenarios.CorporateGifting')
+data.setCell(2, 3, 1215);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'selectCabs')
+data.setCell(3, 2, 'com.testscenarios.CabBooking')
+data.setCell(3, 3, 1161);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'selectHotels')
+data.setCell(4, 2, 'com.testscenarios.HotelBooking')
+data.setCell(4, 3, 798);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'selectCabType')
+data.setCell(5, 2, 'com.testscenarios.CabBooking')
+data.setCell(5, 3, 628);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getNoAdults')
+data.setCell(6, 2, 'com.testscenarios.HotelBooking')
+data.setCell(6, 3, 623);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'readExcelFile')
+data.setCell(7, 2, 'com.testscenarios.CabBooking')
+data.setCell(7, 3, 467);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'fillForm')
+data.setCell(8, 2, 'com.testscenarios.CorporateGifting')
+data.setCell(8, 3, 412);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'selectToCity')
+data.setCell(9, 2, 'com.testscenarios.CabBooking')
+data.setCell(9, 3, 405);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'selectCorporateCards')
+data.setCell(10, 2, 'com.testscenarios.CorporateGifting')
+data.setCell(10, 3, 344);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'selectFromCity')
+data.setCell(11, 2, 'com.testscenarios.CabBooking')
+data.setCell(11, 3, 343);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'selectTime')
+data.setCell(12, 2, 'com.testscenarios.CabBooking')
+data.setCell(12, 3, 173);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'selectDepartureDate')
+data.setCell(13, 2, 'com.testscenarios.CabBooking')
+data.setCell(13, 3, 169);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'selectSortByOption')
+data.setCell(14, 2, 'com.testscenarios.CabBooking')
+data.setCell(14, 3, 146);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'formSubmit')
+data.setCell(15, 2, 'com.testscenarios.CorporateGifting')
+data.setCell(15, 3, 114);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyTitleOfGiftpage')
+data.setCell(16, 2, 'com.testscenarios.CorporateGifting')
+data.setCell(16, 3, 79);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getLowestPrice')
+data.setCell(17, 2, 'com.testscenarios.CabBooking')
+data.setCell(17, 3, 54);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyTitle')
+data.setCell(18, 2, 'com.testscenarios.CabBooking')
+data.setCell(18, 3, 6);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyTitle')
+data.setCell(19, 2, 'com.testscenarios.HotelBooking')
+data.setCell(19, 3, 4);
+window.suiteTableData['Functional_Testing']= { tableData: data, tableDiv: 'times-div-Functional_Testing'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-Functional_Testing">
+              </div> <!-- times-div-Functional_Testing -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Functional Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testscenarios.CabBooking</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">driverConfig</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">readExcelFile</span>
+                <span class="method-start">3435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=readExcelFile status=SUCCESS method=CabBooking.readExcelFile()[pri:0, instance:com....)</span>
+                <span class="method-start">3904 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectCabs</span>
+                <span class="method-start">3908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=selectCabs status=SUCCESS method=CabBooking.selectCabs()[pri:1, instance:com.testsc...)</span>
+                <span class="method-start">5070 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectFromCity</span>
+                <span class="method-start">5341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=selectFromCity status=SUCCESS method=CabBooking.selectFromCity()[pri:2, instance:co...)</span>
+                <span class="method-start">5685 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">5693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyTitle status=SUCCESS method=CabBooking.verifyTitle()[pri:2, instance:com.test...)</span>
+                <span class="method-start">5700 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectToCity</span>
+                <span class="method-start">5709 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=selectToCity status=SUCCESS method=CabBooking.selectToCity()[pri:4, instance:com.te...)</span>
+                <span class="method-start">6115 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectDepartureDate</span>
+                <span class="method-start">6124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=selectDepartureDate status=SUCCESS method=CabBooking.selectDepartureDate()[pri:5, i...)</span>
+                <span class="method-start">6294 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectTime</span>
+                <span class="method-start">6301 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=selectTime status=SUCCESS method=CabBooking.selectTime()[pri:6, instance:com.testsc...)</span>
+                <span class="method-start">6475 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickSearchButton</span>
+                <span class="method-start">6485 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=clickSearchButton status=SUCCESS method=CabBooking.clickSearchButton()[pri:7, insta...)</span>
+                <span class="method-start">8285 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectCabType</span>
+                <span class="method-start">8294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=selectCabType status=SUCCESS method=CabBooking.selectCabType()[pri:8, instance:com....)</span>
+                <span class="method-start">8923 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectSortByOption</span>
+                <span class="method-start">8932 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=selectSortByOption status=SUCCESS method=CabBooking.selectSortByOption()[pri:9, ins...)</span>
+                <span class="method-start">9079 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getLowestPrice</span>
+                <span class="method-start">9085 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=getLowestPrice status=SUCCESS method=CabBooking.getLowestPrice()[pri:10, instance:c...)</span>
+                <span class="method-start">9139 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9147 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testscenarios.CorporateGifting</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">activateDriver</span>
+                <span class="method-start">9864 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">openSite</span>
+                <span class="method-start">12931 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectCorporateCards</span>
+                <span class="method-start">14770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleOfGiftpage</span>
+                <span class="method-start">15115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillForm</span>
+                <span class="method-start">15196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">formSubmit</span>
+                <span class="method-start">15609 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getErrorMessage</span>
+                <span class="method-start">15725 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">endDriverProcess</span>
+                <span class="method-start">16941 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testscenarios.HotelBooking</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">driverConfig</span>
+                <span class="method-start">17727 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">selectHotels</span>
+                <span class="method-start">20846 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=selectHotels status=SUCCESS method=HotelBooking.selectHotels()[pri:0, instance:com....)</span>
+                <span class="method-start">21644 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">21645 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyTitle status=SUCCESS method=HotelBooking.verifyTitle()[pri:1, instance:com.te...)</span>
+                <span class="method-start">21650 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getNoAdults</span>
+                <span class="method-start">21650 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=getNoAdults status=SUCCESS method=HotelBooking.getNoAdults()[pri:2, instance:com.te...)</span>
+                <span class="method-start">22274 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22274 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
