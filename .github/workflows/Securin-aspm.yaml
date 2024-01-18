@@ -13,7 +13,7 @@ jobs:
     env:
       APP_ID: b1bf939820a30cd116689f7ae9087b01936105d644600a92030e9abd833ac804
       BRANCH_NAME: main
-      SCAN_ID: a80a74eb1ca8a43d8ea8f3da04715f7d89a90a89e34d710076d2f2e707550515
+      SCAN_ID: 5bb576ee9ecfeadc927e2f73636d32d2d8189dd37a173d7a7a79609b5b0cd574
       REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://spotty-garlics-glow.loca.lt/resultapi\"\
         ,\"SL_RESULTPARSER_API_HOST\":\"https://0441-49-205-86-47.ngrok-free.app/resultparserapi\"\
         }')}}"
