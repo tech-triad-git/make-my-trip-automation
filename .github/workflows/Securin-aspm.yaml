@@ -13,14 +13,14 @@ jobs:
     env:
       APP_ID: b1bf939820a30cd116689f7ae9087b01936105d644600a92030e9abd833ac804
       BRANCH_NAME: main
-      SCAN_ID: 5bb576ee9ecfeadc927e2f73636d32d2d8189dd37a173d7a7a79609b5b0cd574
-      REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://spotty-garlics-glow.loca.lt/resultapi\"\
-        ,\"SL_RESULTPARSER_API_HOST\":\"https://0441-49-205-86-47.ngrok-free.app/resultparserapi\"\
+      SCAN_ID: a16180cbb34464d2764385dceeedca920dbd4ee37442dd4ea83f9f7fa05c4ee9
+      REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://slresultapi.qa.securin.io/resultapi\"\
+        ,\"SL_RESULTPARSER_API_HOST\":\"https://slresultparserapi.qa.securin.io/resultparserapi\"\
         }')}}"
     steps:
     - name: Retrieve Token Info
       id: auth_token
-      run: "respJson=$(curl --location --request GET 'https://spotty-garlics-glow.loca.lt/resultapi/aws/ecr/token'\
+      run: "respJson=$(curl --location --request GET 'https://slresultapi.qa.securin.io/resultapi/aws/ecr/token'\
         \  --header 'X-ASPM-Auth-Key: ${{secrets.ORG_API_KEY}}'  --data-raw ' ' )\
         \ \necho \"authTokenJson=$respJson\" >> $GITHUB_OUTPUT"
     - uses: actions/checkout@v3
